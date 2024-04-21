@@ -5,7 +5,7 @@ from datasets import load_dataset
 from bson import json_util
 
 # MongoDB Atlas URI and client setup
-uri = os.environ.get('mongodb+srv://admin:admin@airbnb.hjva0di.mongodb.net/?retryWrites=true&w=majority&appName=Airbnb')
+uri = os.environ.get('MongoDB_URI')
 client = MongoClient(uri)
 
 # Change to the appropriate database and collection names
